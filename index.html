@@ -4,7 +4,98 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SEMINAR</title>
+	<style>
+		/* Global styles */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+		body {
+			background-color: #0b1a2e; /* Midnight Blue */
+			color: #f0f4f8;
+			line-height: 1.6;
+		}
+
+		/* Navigation */
+		nav {
+			background-color: #081422;
+			padding: 20px 0;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+		}
+
+		nav ul {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			gap: 40px;
+		}
+
+		nav ul li {
+			color: #f0f4f8;
+			font-weight: bold;
+			cursor: pointer;
+			transition: color 0.3s;
+		}
+
+		nav ul li:hover {
+			color: #4fd1c5; /* Teal accent */
+		}
+
+		/* Section styling */
+		section {
+			padding: 60px 20px;
+			max-width: 800px;
+			margin: auto;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		section:last-child {
+			border-bottom: none;
+		}
+
+		#Home {
+			font-size: 18px;
+		}
+
+		#Home::before,
+		#About\:Me::before,
+		#Contact::before {
+			content: '';
+			display: block;
+			height: 60px;
+			margin-top: -60px;
+			visibility: hidden;
+		}
+
+		h1, h2 {
+			color: #ffffff;
+			margin-bottom: 20px;
+		}
+
+		/* Link styling */
+		a {
+			color: #4fd1c5;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		/* Emojis and formatting */
+		#Home .checklist {
+			margin-top: 15px;
+		}
+
+		.checklist p {
+			margin: 8px 0;
+		}
+	</style>
 </head>
+
 <body>
 	<nav>
 		<ul>
@@ -34,8 +125,6 @@
 🔗 Instagram: @heartbytestudio
 📍 Based in the Philippines | Working Remotely
 	</section>
-	<style>
-		
-	</style>
+	
 </body>
 </html>
